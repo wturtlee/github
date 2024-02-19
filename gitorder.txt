@@ -1,0 +1,26 @@
+git#設定成repository
+git init
+
+#查看
+git status
+
+#新增指令
+git add "檔案名"
+
+#新增整個資料夾檔案
+git add .
+
+#儲存
+git commit -m "新增什麼"
+
+#將檔案上傳網址
+git remote add origin "網址"
+
+#push指令
+git push -u origin master
+
+#-u之後(設定預設值)
+git push
+
+#在不同電腦開發
+git clone "網址"
